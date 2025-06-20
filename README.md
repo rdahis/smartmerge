@@ -2,8 +2,8 @@
 
 A lightweight Stata command that augments **merge** by checking what happens if you merge on *unique* combinations of the key variables.  
 
-```
-net install smartmerge, from("https://raw.githubusercontent.com/rdahis/smartmerge/main/") force
+```stata
+net install smartmerge, from("https://raw.githubusercontent.com/rdahis/smartmerge/main/smartmerge") force
 ```
 
 ## Why?
@@ -14,7 +14,7 @@ When either the master or using data contain duplicate keys, `merge` behaves as 
 
 `smartmerge` mirrors the syntax of Stata's native `merge`. Everything after the command name is passed through verbatim to `merge`.
 
-```
+```stata
 smartmerge 1:m id using survey2, keep(match master)
 ```
 

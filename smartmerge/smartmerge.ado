@@ -4,9 +4,8 @@ program define smartmerge, sortpreserve rclass
     /*
     ---------------------------------------------------------------------
     smartmerge
-    Author: Ricardo Dahis (initial scaffolding by AI assistant)
-    Date  : 25 Jun 2025
-
+    Author: Ricardo Dahis (plus scaffolding by AI assistant)
+    
     Syntax (mirrors Stata's merge):
         smartmerge <merge_type> varlist using filename [, merge_options]
 
