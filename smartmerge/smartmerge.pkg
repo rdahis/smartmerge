@@ -1,0 +1,5 @@
+v 3
+d smartmerge: Merge with unique-key diagnostics
+f smartmerge.ado
+f smartmerge.sthlp
+e 

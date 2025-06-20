@@ -1,0 +1,3 @@
+v 3
+d smartmerge: Merge command with duplicate-aware diagnostics
+p smartmerge smartmerge: Merge with unique-key check and report 
